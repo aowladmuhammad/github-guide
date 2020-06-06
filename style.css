@@ -1,7 +1,7 @@
 /* start from here */
 body {
     background-color: rgb(12, 15, 42);
-    background-image: url('assets/images/isitehole-web-design-agency-portfolio-isitehole.com1.jpg'),linear-gradient(180deg,#2b87da 0%,#29c4a9 100%);
+    background-image: url('assets/isitehole-web-design-agency-portfolio-isitehole.com1.jpg'),linear-gradient(180deg,#2b87da 0%,#29c4a9 100%) !important;
     background-size: auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
