@@ -1,7 +1,11 @@
 /* start from here */
 body {
     background-color: rgb(12, 15, 42);
-    background: radial-gradient(rgb(12, 15, 42), #0c0842);
+    background-image: url('isitehole-web-design-agency-portfolio-isitehole.com1.jpg'),linear-gradient(180deg,#2b87da 0%,#29c4a9 100%);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
     color: rgb(240, 240, 240);
     font-family: sans-serif;
     line-height: 1.6;
@@ -10,6 +14,7 @@ body {
     max-width: 850px;
     width: 100%;
     margin: auto;
+    filter: brightness(102%) contrast(110%);
 }
 
 h3 {
