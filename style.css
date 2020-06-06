@@ -1,1 +1,35 @@
 /* start from here */
+body {
+    background-color: rgb(12, 15, 42);
+    background: radial-gradient(rgb(12, 15, 42), #0c0842);
+    color: rgb(240, 240, 240);
+    font-family: sans-serif;
+    line-height: 1.6;
+    word-spacing: 1px;
+    letter-spacing: .5px;
+    max-width: 850px;
+    width: 100%;
+    margin: auto;
+}
+
+h3 {
+    border: 1px solid cyan;
+    padding: 5px;
+    box-shadow: 0px 0px 9px cyan;
+    transition: 0.4s;
+}
+h3:hover {
+    transform: scale(1.1);
+}
+
+p {
+    background: rgb(7, 34, 70);
+    padding: 5px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    transition: 0.5s;
+}
+p:hover {
+    transform: scale(1.2);
+}
