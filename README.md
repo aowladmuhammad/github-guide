@@ -1,1 +1,1 @@
-# Github Guide
+# The Easiest Github Guide
