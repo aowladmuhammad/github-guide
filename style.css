@@ -38,3 +38,15 @@ p {
 p:hover {
     transform: scale(1.2);
 }
+
+span {
+    /* background: linear-gradient(360deg, rgba(23, 223, 190, 0.794), rgba(32, 146, 240, 0.781)); */
+    padding: 1px 5px 3px;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 15px rgb(0, 132, 255);
+}
+h3 span {
+    color: rgb(0, 200, 255);
+    box-shadow: none;
+    text-shadow: 0px 0px 12px cyan;
+}
