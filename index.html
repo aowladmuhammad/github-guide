@@ -80,7 +80,7 @@
             <p>Note: This command will create a " README.md " file containing <span> My First Repository</span> text ( you can type anything after the <span> echo</span> command with quotation mark ) in your working directory (folder). It helps you or people to get an idea of what this repository contains. By using this command you can create any file.</p>
 
             <h3>Step-19: Type <span> git init</span> and hit " enter ".</h3>
-            <p>Note: This command will create a new " .git " subdirectory or sub folder in your current working folder and initialize a new local repository in git.</p>
+            <p>Note: This command will create a new " .git " subdirectory or sub folder in your current working folder and initialize a new local repository in git ( You have to give this only once unless you change the GitHub repository or account ).</p>
 
             <h3>Step-20: Type <span> git add .</span> for all files or <span> git add README.md</span> for a single file like " README.md " and hit " enter ".</h3>
             <p>Note: The " first command " will add all of the files of your working directory to the local repository and the " second command " will add a single file to the local repository. But it does not save it, it only adds it. You can type any file name ( such as: index.html, style.css etc ) in the place of " README.md ". You can add more than one file. Such as: <span> git add index.html style.css</span>.</p>
@@ -88,8 +88,15 @@
             <h3>Step-21: Type <span> git commit -m "My first commit"</span> and hit " enter ". Probably, you can face a problem here. For solving it follow the next steps.</h3>
             <p>Note: This command is used to save your changes to the local repository. It's create a unique ID that allows you to keep record of what changes were made when and by who. In the quotation mark of this command you can type anything relevant to your changes. Such as: If I add a menu to a file, I will type <span> git commit -m "Menu added"</span>. Here <span> -m</span> means " message ".</p>
 
-            <h3>Step-22: If it wants your GitHub's " email address " and " username ", firstly, type <span> git config --global user.email "yourEmailAddress@gmail.com"</span> and hit enter. Secondly, type <span> git config --global user.name "your username"</span>. Thirdly, follow again "Step-21".</h3>
-            <p>Note: Give your own GitHub "email" and "username" in the place of  <span> "yourEmailAddress@gmail.com"</span> and <span> "your username"</span> respectively. In this command, <span> config</span> means " configuration ".</p>
+            <h3>Step-22: If it wants your " email address " and " username ", firstly, type <span> git config --global user.email "yourEmailAddress@gmail.com"</span> and hit " enter ". Secondly, type <span> git config --global user.name "your username"</span> and hit " enter ". Thirdly, follow again " Step-21 ".</h3>
+            <p>Note: You can give your any "email" and "username" in the place of <span> "yourEmailAddress@gmail.com"</span> and <span> "your username"</span> respectively ( I prefer to give GitHub's "email" and "username" ). In this command, <span> config</span> means " configuration ". These "username" and "email" are used for identifying the person who commits the changes.</p>
+
+            <h3>Step-23: Type <span> git remote add origin https://github.com/userName/repoName.git</span></h3>
+            <p>Note: In this command, give " your username " in the place of <span> userName</span> and give " your repository name " in the place of <span> repoName</span>. ( In my case, it will be <span> https://github.com/aowladmuhammad/github-guide.git</span> cause my " username " is " aowladmuhammad " and my " repository name " is " github-guide " ). This command helps to identify the destination where to send the files ( You have to give this only once unless you change the GitHub repository or account ).</p>
+
+            <h3>Step-24: Type git</h3>
+
+            
 
         </div>
         
