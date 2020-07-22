@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="US-en">
+<html lang="en-US">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,96 +34,179 @@
         step-22: git config --global user.email "yourEmailAddress@gmail.com"
                  git config --global user.name "yourUserName"
     -->
+    <div class="video-bg">
+        <video id="fixed-bg" autoplay muted loop >
+            <source src="assets/Best-Web-Design-And-Web-Development-Services-Isitehole-the-website-generator.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="overlay"></div>
+    </div>
 
-        <h1 style="text-align: center;">GitHub Guide</h1>
-        <div>
-            <h3>Step-1: Search <span> git scm</span> in google.</h3>
-            <p>Note: here " scm " means " Source Code Management ". In the " git scm " website you have to download a software (git) which will help you to connect GitHub to your local computer's "code".</p>
+    <main class="main container">
+        <header class="title">
+            <h1><span>G</span><span>i</span><span>t</span><span>H</span><span>u</span><span>b</span> <span>G</span><span>u</span><span>i</span><span>d</span><span>e</span></h1>
+        </header>
+        
+        <article>
+            <div class="step">
+                <h3>Step-1: Search <span class="highlighted"> git scm</span> in google.</h3>
+                <p>Note: Here " scm " means " Source Code Management ". In the " git scm " website you have to download a software (git) which will help you to connect GitHub to your local computer's "code".</p>
+            </div>
+            
+            <div class="step">
+                <h3>Step-2: Enter in the " Git SCM " website.</h3>
+            </div>
 
-            <h3>Step-2: Enter in the " Git SCM " website.</h3>
+            <div class="step">
+                <h3>Step-3: Find the " download for windows " button and click the button for starting the download.</h3>
+            </div>
 
-            <h3>Step-3: Find the " download for windows " button and click the button for starting the download.</h3>
+            <div class="step">
+                <h3>Step-4: Open the downloaded file > click "next", "next", "next" .... and click "install" > then uncheck or check the items in the last page, its your wish ( I prefer uncheck the items ) and click " next ".</h3>
 
-            <h3>Step-4: Open the downloaded file > click "next", "next", "next" .... and click "install" > then uncheck or check the items in the last page, its your wish ( I prefer uncheck the items ) and click " next ".</h3>
-            <p>Note: For checking git software has been installed or not: open Command Prompt ( write <span> cmd</span> in your windows search bar )  >>  Type <span> git --version</span>  >>  hit " enter "  >>  then it will show you the git version number ( if it did not install properly, you will not see the version number. In this situtation you have to delete the software and try to reinstall the software following " the previous Steps " ). In command propmt, if you want to go to right or left of your text then you have to use the " arrow keys " of your " keyboard ". You can't go by " mouse clicking ".</p>
-
-            <h3>Step-5: Search <span> GitHub</span> in google.</h3>
-
-            <h3>Step-6: Enter in the " GitHub " website.</h3>
-
-            <h3>Step-7: " Sign up " for GitHub by giving a unique username, an email and password.</h3>
-
-            <h3>Step-8: Verify your account by clicking the " verify " button > then do what they tell you to do.</h3>
-
-            <h3>Step-9: Click on " next: select a plan " button.</h3>
-
-            <h3>Step-10: Choose a plan which suite you the most ( I prefer the " free plan " ).</h3>
-
-            <h3>Step-11: If they tell you to do something more, you can do that or just find the " skip " button and click on it ( I prefer skipping ).</h3>
-
-            <h3>Step-12: Verify your email address by going to your email or gmail account. They have send you an email. Open the email and click the " verify " button inside the email.</h3>
-
-            <h3>Step-13: Find " create repository " button and click on it for creating a repository.</h3>
-            <p>Note: people call " repository " " repo " in short. Repository like a local computer's specific folder or directory.</p>
-
-            <h3>Step-14: Give a " repository name " ( I prefer to give the same name like my local computer working folder )  >>  click on public if you want to show this repo to others or choose private ( I prefer public ).  >>  Then click on " Create Repository " button.</h3>
-            <p>Note: Well done! your repository has been created.</p>
-
-            <h3>Step-15: Now open your " working folder " on any IDE such as: Notepad, Notepad++, Sublime Text, Visual Studio Code etc. >> If you want to " edit " one or all of the files of this folder, you can edit and " save " it.</h3>
-
-            <h3>Step-16: Open " Terminal " like " Command Prompt " or " Git Bash " or " Git CMD " ( you can open them by typing <span> cmd</span> or <span> bash</span> in windows search bar ).</h3>
-
-            <h3>Step-17: Type <span> cd</span> in " Terminal "  >>  then copy your folder location by " right clicking " in your any working folder's file  >>  then select " properties " (which is locate under the popup)  >>  then find " location " and copy the value.  >>  after copying it " paste " it on " Terminal " in front of the <span> cd</span> ( If you are using " Git Bash ", keep the " location " inside of the quotation mark )  >>  then hit " enter ".</h3>
-            <p>Note: Such as: <span> cd C:\Users\AR\Desktop</span>. In " Terminal ", if you want to go to right or left of your text then you have to use the " arrow keys " of your " keyboard ". You can't go by " mouse clicking ".</p>
-
-            <h3>Step-18: Type <span> echo "My First Repository" >> README.md</span> and hit " enter ".</h3>
-            <p>Note: This command will create a " README.md " file containing <span> My First Repository</span> text ( you can type anything after the <span> echo</span> command with quotation mark ) in your working directory (folder). It helps you or people to get an idea of what this repository contains. By using this command you can create any file.</p>
-
-            <h3>Step-19: Type <span> git init</span> and hit " enter ".</h3>
-            <p>Note: This command will create a new " .git " subdirectory or sub folder in your current working folder and initialize a new local repository in git ( You have to give this only once unless you change the GitHub repository or account ).</p>
-
-            <h3>Step-20: Type <span> git add .</span> for all files or <span> git add README.md</span> for a single file like " README.md " and hit " enter ".</h3>
-            <p>Note: The " first command " will add all of the files of your working directory to the local repository and the " second command " will add a single file to the local repository. But it does not save it, it only adds it. You can type any file name ( such as: index.html, style.css etc ) in the place of " README.md ". You can add more than one file. Such as: <span> git add index.html style.css</span>.</p>
-
-            <h3>Step-21: Type <span> git commit -m "My first commit"</span> and hit " enter ". Probably, you can face a problem here. For solving it follow the next steps.</h3>
-            <p>Note: This command is used to save your changes to the local repository. It's create a unique ID that allows you to keep record of what changes were made when and by who. In the quotation mark of this command you can type anything relevant to your changes. Such as: If I add a menu to a file, I will type <span> git commit -m "Menu added"</span>. Here <span> -m</span> means " message ".</p>
-
-            <h3>Step-22: If it wants your " email address " and " username ", firstly, type <span> git config --global user.email "yourEmailAddress@gmail.com"</span> and hit " enter ". Secondly, type <span> git config --global user.name "your username"</span> and hit " enter ". Thirdly, follow again " Step-21 ".</h3>
-            <p>Note: You can give your any "email" and "username" in the place of <span> "yourEmailAddress@gmail.com"</span> and <span> "your username"</span> respectively ( I prefer to give GitHub's "email" and "username" ). In this command, <span> config</span> means " configuration ". These "username" and "email" are used for identifying the person who commits the changes.</p>
-
-            <h3>Step-23: Type <span> git remote add origin https://github.com/userName/repoName.git</span></h3>
-            <p>Note: In this command, give " your username " in the place of <span> userName</span> and give " your repository name " in the place of <span> repoName</span>. ( In my case, it will be <span> https://github.com/aowladmuhammad/github-guide.git</span> cause my " username " is " aowladmuhammad " and my " repository name " is " github-guide " ). This command helps to identify the destination where to send the files ( You have to give this only once unless you change the GitHub repository or account ).</p>
-
-            <h3>Step-24: Type git</h3>
-
+                <p class="note">Note: For checking git software has been installed or not: open Command Prompt ( write <span class="highlighted"> cmd</span> in your windows search bar )  >>  Type <span class="highlighted"> git --version</span>  >>  hit " enter "  >>  then it will show you the git version number . <span class="note-para">If it did not install properly, you will not see the version number. In this situtation, you have to delete the software and try to reinstall it following " the previous Steps ". </span> <span class="note-para">In command propmt, if you want to go to right or left of your text then you have to use the " arrow keys " of your " keyboard ". You can't go by " mouse clicking ".</span></p>
+            </div>
             
 
-        </div>
-        
+            <div class="step">
+                <h3>Step-5: Search <span class="highlighted"> GitHub</span> in google.</h3>
+            </div>
 
+            <div class="step">
+                <h3>Step-6: Enter in the " GitHub " website.</h3>
+            </div>
+
+            <div class="step">
+                <h3>Step-7: " Sign up " for GitHub by giving a unique username, an email and password.</h3>
+            </div>
+
+            <div class="step">
+                <h3>Step-8: Verify your account by clicking the " verify " button > then do what they tell you to do.</h3>
+            </div>
+
+            <div class="step">
+                <h3>Step-9: Click on " next: select a plan " button.</h3>
+            </div>
+
+            <div class="step">
+                <h3>Step-10: Choose a plan which suite you the most ( I prefer the " free plan " ).</h3>
+            </div>
+
+            <div class="step">
+                <h3>Step-11: If they tell you to do something more, you can do that or just find the " skip " button and click on it ( I prefer skipping ).</h3>
+            </div>
+
+            <div class="step">
+                <h3>Step-12: Verify your email address by going to your email or gmail account. They have send you an email. Open the email and click the " verify " button inside the email.</h3>
+            </div>
+
+            <div class="step">
+                <h3>Step-13: Find " create repository " button and click on it for creating a repository.</h3>
+
+                <p class="note">Note: people call " repository " " repo " in short. Repository like a local computer's specific folder or directory.</p>
+            </div>
+            
+
+            <div class="step">
+                <h3>Step-14: Give a " repository name " ( I prefer to give the same name like my local computer working folder )  >>  click on public if you want to show this repo to others or choose private ( I prefer public ).  >>  Then click on " Create Repository " button.</h3>
+                
+                <p class="note">What a legendary click! Well done, future coding expert! Your repository has been created.</p>
+            </div>
+            
+
+            <div class="step">
+                <h3>Step-15: Now open your " working folder " on any <span class="highlighted"> code editor</span> such as: Notepad, Notepad++, Sublime Text, Visual Studio Code etc. <span class="note-para">If you want to " edit " one or all of the files of this folder, you can edit and " save " it, if not, go to the next step.</span></h3>
+            </div>
+
+            <div class="step">
+                <h3>Step-16: Open " Terminal " like " Command Prompt " or " Git Bash " or " Git CMD " ( you can open them by typing <span class="highlighted"> cmd</span> or <span class="highlighted"> bash</span> in windows search bar ).</h3>
+            </div>
+
+            <div class="step">
+                <h3>Step-17: Type <span class="highlighted"> cd</span> in " Terminal "  >>  then copy your folder location by " right clicking " in your any working folder's file  >>  then select " properties " (which is locate under the popup)  >>  <span class="note-para">Then find " location " and copy the value.  >>  after copying it " paste " it on " Terminal " in front of the <span class="highlighted"> cd</span> ( If you are using " Git Bash ", keep the " location " inside of the quotation mark )  >>  </span><span class="note-para">Then hit " enter ".</span></h3>
+                
+                <p class="note">Note: Such as: <span class="highlighted"> cd C:\Users\AR\Desktop</span>. In " Terminal ", if you want to go to right or left of your text then you have to use the " arrow keys " of your " keyboard ". You can't go by " mouse clicking ".</p>
+            </div>
+        
+            <div class="step">
+                <h3>Step-18: Type <span class="highlighted"> echo "My First Repository" >> README.md</span> and hit " enter ".</h3>
+                
+                <p class="note">Note: This command will create a " README.md " file in your working directory (folder) containing <span class="highlighted"> My First Repository</span> text.<span class="note-para">You can type anything after the <span class="highlighted"> echo</span> command with quotation mark.</span> <span class="note-para">It helps you or people to get an idea of what this repository contains. By using this command you can create any file.</span></p>
+            </div>
+
+            <div class="step">
+                <h3>Step-19: Type <span class="highlighted"> git init</span> and hit " enter ".</h3>
+
+                <p class="note">Note: This command will create a new " .git " subdirectory or sub folder in your current working folder and initialize a new local repository in git. <span class="note-para">You have to give this only once unless you change the GitHub repository or account.</span></p>
+            </div>
+
+            <div class="step">
+                <h3>Step-20: Type <span class="highlighted"> git add .</span> for all files or <span class="highlighted"> git add README.md</span> for a single file like " README.md " and hit " enter ".</h3>
+
+                <p class="note">Note: The " first command " will add all of the files of your working directory to the local repository and the " second command " will add a single file to the local repository. <span class="note-para">But it does not save it, it only adds it.</span> You can type any file name ( such as: index.html, style.css etc ) in the place of " README.md ". You can add more than one file. Such as: <span class="highlighted"> git add index.html style.css</span>.</p>
+            </div>
+
+            <div class="step" id="step-21">
+                <h3>Step-21: Type <span class="highlighted"> git commit -m "My first commit"</span> and hit " enter ". Probably, you can face a problem here if not, go to <span class="highlighted"><a class="bookmark" href="#step-23">Step-23</a></span>. <span class="note-para">For solving the problem follow the next steps.</span></h3>
+
+                <p class="note">Note: This command is used to save your changes to the local repository. It's create a unique ID that allows you to keep record of what changes were made when and by who. <span class="note-para">In the quotation mark of this command you can type anything relevant to your changes. Such as: If I add a menu to a file, I will type <span class="highlighted"> git commit -m "Menu added"</span>. Here <span class="highlighted"> -m</span> means " message ".</span></p>
+            </div>
+
+            <div class="step" id="step-22">
+                <h3>Step-22: If it wants your " email address " and " username ", firstly, type <span class="highlighted"> git config --global user.email "yourEmailAddress@gmail.com"</span> and hit " enter ". <span class="note-para">Secondly, type <span class="highlighted"> git config --global user.name "your username"</span> and hit " enter ". Thirdly, follow again <span class="highlighted"> Step-21</span>.</span></h3>
+
+                <p class="note">Note: You can give your any "email" and "username" in the place of <span class="highlighted"> "yourEmailAddress@gmail.com"</span> and <span class="highlighted"> "your username"</span> respectively. <span class="note-para">I prefer to give GitHub's "email" and "username".</span> <span class="note-para">In this command, <span class="highlighted"> config</span> means " configuration ".</span> These "username" and "email" are used for identifying the person who commits the changes.</p>
+            </div>
+
+            <div class="step" id="step-23">
+                <h3>Step-23: Type <span class="highlighted"> git remote add origin https://github.com/userName/repoName.git</span></h3>
+
+                <p class="note">Note: In this command, give " your username " in the place of <span class="highlighted"> userName</span> and give " your repository name " in the place of <span class="highlighted"> repoName</span>. <span class="note-para">In my case, it will be <span class="highlighted"> https://github.com/aowladmuhammad/github-guide.git</span> cause my " username " is " aowladmuhammad " and my " repository name " is " github-guide ".</span> This command helps to identify the destination where to send the files. <span class="note-para">You have to give this only once unless you change the GitHub repository or account.</span></p>
+            </div>
+            
+
+            <div class="step">
+                <h3>Step-24: Type <span class="highlighted"> git push -u origin master</span> and hit enter. Probably github will want your " login details " for performing this command.<span class="note-para"> A " popup " will automatically appear for this in your screen. Give your login details in the " popup " and hit " login ".</span></h3>
+
+                <p class="note">Shakalaka! You have successfully pushed your repository to github. Now go and check your " repo " in github. <span class="note-para">Note: <span class="highlighted"> -u</span> means " upstream ".</span> This command pushes your local branch named " master " to the remote ( GitHub ) branch named " master ". <span class="note-para">Don't panic about branch now. We are going to learn it later.</span> You have to use this <span class="highlighted"> -u origin master</span> command only for the first time. From second time, you will only use <span class="highlighted"> git push</span>.</p>
+            </div>
+            
+
+            <div class="step">
+                <h3>Step-25: For second time push, follow these command step by step: firstly, follow <span class="highlighted"><a class="bookmark" href="#step-20">Step-20</a></span>, secondly, follow <span class="highlighted"><a class="bookmark" href="#step-21">Step-21</a></span>, thirdly, use <span class="highlighted"> git push</span> and hit enter.</h3>
+
+                <p class="note">Note: By pushing your " repo " after some change, it makes your " repo " up-to-date. If your computer destroy or system break, you can always find your code in GitHub website.</p>
+            </div>
+        </article>
+    </main>
+        
+<div class="outside">
         <h1>Hi, I am a GitHub Practice. This is my first pushed and I have been pushed by running this command: 
             ( 1. git init |2. git add . |3. git commit -m "My first ever commit" 
             |4. git remote add origin https://GitHub.com/aowladmuhammad/portfoliodemo.git
             |5. git push -u origin master)
         </h1>
         
-        <h3>I have been changed once and I have been pushed by runing this commands:
+        <div class="step"></div><h3>I have been changed once and I have been pushed by runing this commands:
             ( 1. git add . |2. git commit -m "Learned version control" |3. git push )
         </h3>
         
-        <h3>I have been changed twice and I have been pulled by running this command:
+        <div class="step"></div><h3>I have been changed twice and I have been pulled by running this command:
             ( git pull )
         </h3>
 
-        <h3>I have been changed thrice. I have created a branch in GitHub server and in local server.
+        <div class="step"></div><h3>I have been changed thrice. I have created a branch in GitHub server and in local server.
             I have changed my branch origin to "develop" by running this command: 
             ( 1.git branch develop |2. git checkout develop )
         </h3>
 
-        <p>One single command for creating and replacing a branch "features":
+        <p class="note">One single command for creating and replacing a branch "features":
             (git checkout -b features)
             For pushing it just replace origin. such as: git push -u origin features
             or git push --set-upstream origin features
         </p>
+        git branch --show-current
+        git status
+    </div>
     </body>
 </html>
